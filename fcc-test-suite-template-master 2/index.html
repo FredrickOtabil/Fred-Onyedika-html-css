@@ -21,19 +21,29 @@
         </p>
       </div>
       <form id="survey-form" action="">
+        <label for="name" id="name-label">Name</label>
         <input
           type="text"
           id="name"
           placeholder="enter your fullname"
           required
         />
+        <label for="email" id="email-label">Email</label>
+
         <input
           type="email"
           id="email"
           placeholder="enter your email address"
           required
         />
-        <input type="text" id="number" placeholder="enter your number" />
+        <label for="number" id="number-label">Number</label>
+        <input
+          type="number"
+          id="number"
+          placeholder="enter your number"
+          min="9"
+          max="15"
+        />
       </form>
     </main>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
